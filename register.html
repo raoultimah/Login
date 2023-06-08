@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <main>
+        <section class="form-container">
+            <h2 class="form-heading">REGISTER NOW</h2>
+            <form action="" class="form">
+                <span class="names">
+                    <input type="text" name="firstname" class="firstname" id="firstname" placeholder="First Name">
+                    <input type="text" name="lastname" class="lastname" id="lastname" placeholder="Last Name">
+                </span>
+                <input type="text" name="username" class="username" id="username" placeholder="Username">
+                <input type="email" name="email" class="email" id="email" placeholder="Email">
+                <input type="password" name="password" class="password" id="password" placeholder="Password">
+                <input type="password" name="confirm-password" class="password" id="confirm-password" placeholder="Confirm Password">
+                <select name="usertype" class="user-type" id="user-type">
+                    <option value="user">User</option>
+                    <option value="admin">Admin</option>
+                </select>
+                <button class="button" id="register-button">Register</button>
+                <p class="no-account-text">Already have an account?<span>  </span><a href="/login.html" class="registerlink">Login Now</a></p>
+            </form>
+
+            <p><a href="/user.html">User Area</a></p>
+        </section>
+    </main>
+</body>
+</html>
